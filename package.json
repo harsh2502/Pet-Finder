@@ -1,0 +1,50 @@
+{
+  "name": "need-for-code-17",
+  "version": "1.0.0",
+  "description": "Need For Code 2022: Terrifying Terabytes",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mapbox/mapbox-sdk": "^0.13.4",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.30.1",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-ejs-layouts": "^2.5.1",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.7",
+    "multer": "^1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.19",
+    "npm": "^8.15.0",
+    "p-map": "^5.5.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "path": "^0.12.7",
+    "session": "^0.1.0",
+    "bootstrap": "^5.2.1",
+    "connect-mongo": "^4.6.0",
+    "cross-env": "^7.0.3",
+    "express-handlebars": "^6.0.6",
+    "method-override": "^3.0.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
